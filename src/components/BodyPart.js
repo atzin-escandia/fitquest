@@ -1,7 +1,5 @@
 import React from "react";
 import { Box, Stack, Typography } from "@mui/material";
-import Icon from "../assets/icons/gym.png";
-import footer from "../assets/images/footer.jpg";
 const importAll = (r) =>
   r.keys().reduce((acc, item) => {
     acc[item.replace("./", "")] = r(item);

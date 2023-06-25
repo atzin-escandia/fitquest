@@ -10,6 +10,7 @@ const Footer = () => (
       backgroundSize: "cover",
       backgroundPosition: "center",
       height: "800px",
+      width: "100%"
     }}
   >
     <Box></Box>
