@@ -1,6 +1,5 @@
 # FitQuest
-
-![FitQuest Logo](logo.png)
+![image](https://github.com/atzin-escandia/fitquest/assets/77510953/7cdef328-237f-4d13-aef7-ba4e24dace5d)
 
 Welcome to the FitQuest! 🏋️‍♀️🏃‍♂️💪
 
@@ -26,8 +25,15 @@ The FitQuest is a modern, sleek, and fun application built with React. It is des
 
 ## Screenshots
 
-![FitQuest Dashboard](screenshot1.png)
+![FitQuest Dashboard]
+![image](https://github.com/atzin-escandia/fitquest/assets/77510953/7f9bb437-6209-441f-abe9-06f8dd268cdf)
+![image](https://github.com/atzin-escandia/fitquest/assets/77510953/811f0e09-04cb-416e-b8e8-5ae254140700)
+![image](https://github.com/atzin-escandia/fitquest/assets/77510953/fb38881b-9ca8-454b-83d2-a6eae9180ddd)
+![image](https://github.com/atzin-escandia/fitquest/assets/77510953/02bf1dab-d3d6-4a0f-a18e-d2e59bb5a51a)
+
 ![FitQuest Exercise Details](screenshot2.png)
+![image](https://github.com/atzin-escandia/fitquest/assets/77510953/461c4116-cdd0-45c9-8ffd-bfb0cdc2c5d4)
+![image](https://github.com/atzin-escandia/fitquest/assets/77510953/75e482dc-836f-40da-9ca1-0cf4399ec093)
 
 ## Technologies Used
 
