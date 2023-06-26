@@ -20,18 +20,6 @@ const Footer = () => (
       }}
     >
       <Typography
-        variant="h5"
-        sx={{
-          fontSize: { lg: "28px", xs: "20px" },
-          textAlign: { lg: "end", xs: "center" },
-        }}
-        mt="41px"
-        fontWeight={"bold"}
-        color="#cc5803"
-      >
-        With 🤍 by @atzinescandia
-      </Typography>
-      <Typography
         fontWeight={600}
         color="#c6ac8f"
         textAlign="end"
@@ -42,6 +30,19 @@ const Footer = () => (
         }}
       >
         FitQuest
+      </Typography>
+      <Typography
+        variant="h5"
+        sx={{
+          fontSize: { lg: "30px", xs: "20px" },
+          textAlign: { lg: "end", xs: "end" },
+          mr: { xs: "20px" },
+        }}
+        mt="41px"
+        fontWeight={"bold"}
+        color="#fff"
+      >
+        With 🤍 <br /> by @atzinescandia
       </Typography>
     </Box>
   </Box>
