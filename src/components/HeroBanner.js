@@ -3,8 +3,7 @@ import { Box, Stack, Typography } from "@mui/material";
 import HeroVideo from "../assets/videos/boxing.mp4";
 
 const HeroBanner = () => (
-  <Box width="100%"
-  >
+  <Box width="100%">
     <video
       src={HeroVideo}
       autoPlay
@@ -29,22 +28,26 @@ const HeroBanner = () => (
         overflow: "hidden",
       }}
     >
-
       <Typography color="#cc5803" fontWeight={600} fontSize="26px">
-        Fitness Club
+        The place to start your fitness journey
       </Typography>
       <Typography
         fontWeight={700}
-        sx={{ fontSize: { lg: "44px", xs: "40px" } }}
+        sx={{ fontSize: { lg: "50px", xs: "40px" } }}
         mb="23px"
         mt="30px"
         color="#FFFFFF"
       >
-        Sweat, Smile <br />
-        And Repeat
+        Start training <br />
+        effectively
       </Typography>
-      <Typography fontSize="22px" color="#fff" lineHeight="35px">
-        Check out the most effective exercises personalized to you
+      <Typography
+        fontSize="22px"
+        color="#fff"
+        lineHeight="35px"
+        sx={{ display: { lg: "block", xs: "none" } }}
+      >
+        The best exercises for your workout routine
       </Typography>
       <Stack>
         <a
@@ -52,7 +55,7 @@ const HeroBanner = () => (
           style={{
             marginTop: "45px",
             textDecoration: "none",
-            width: "200px",
+            width: "300px",
             textAlign: "center",
             background: "#cc5803",
             padding: "14px",
@@ -70,15 +73,14 @@ const HeroBanner = () => (
         color="#c6ac8f"
         sx={{
           opacity: "0.1",
-          display: { lg: "block", xs: "none" },
-          fontSize: "200px",
+          fontSize: { lg: "250px", xs: "70px" },
+          fontFamily: "Faster One",
         }}
       >
         FitQuest
       </Typography>
     </Box>
   </Box>
-
 );
 
 export default HeroBanner;

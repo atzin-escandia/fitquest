@@ -37,7 +37,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
   const indexOfFirstExercise = indexOfLastExercise - exercisesPerPage;
   const currentExercises = exercises.slice(
     indexOfFirstExercise,
-    indexOfLastExercise,
+    indexOfLastExercise
   );
 
   const paginate = (event, value) => {
@@ -49,7 +49,13 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
   if (!currentExercises.length) return <Loader />;
 
   return (
-    <Box id="exercises" sx={{ mt: { lg: "109px" } }} mt="50px" p="20px">
+    <Box
+      id="exercises"
+      sx={{ mt: { lg: "109px" } }}
+      mt="50px"
+      p="20px"
+      mb="100px"
+    >
       <Typography
         variant="h4"
         fontWeight="bold"

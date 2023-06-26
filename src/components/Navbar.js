@@ -10,9 +10,9 @@ const Navbar = () => (
     sx={{
       gap: { sm: "123px", xs: "40px" },
       mt: { sm: "32px", xs: "20px" },
+      p: { sm: "20px", xs: "0" },
       justifyContent: "none",
     }}
-    px="20px"
   >
     <Link to="/">
       <img

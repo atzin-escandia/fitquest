@@ -1,6 +1,5 @@
 import React from "react";
 import { Box, Stack, Typography } from "@mui/material";
-import Logo from "../assets/icons/logo.svg";
 import footer from "../assets/images/footer.jpg";
 
 const Footer = () => (
@@ -8,33 +7,41 @@ const Footer = () => (
     sx={{
       backgroundImage: `url(${footer})`,
       backgroundSize: "cover",
-      backgroundPosition: "center",
-      height: "800px",
-      width: "100%"
+      height: { sm: "800px", xs: "350px" },
+      backgroundPosition: { sm: "auto", xs: "center" },
     }}
   >
-    <Box></Box>
+    <Box width="50%"></Box>
     <Box
-      sx={{ backgroundImage: "linear-gradient(to top, transparent, #000000)" }}
+      sx={{
+        backgroundImage: "linear-gradient(to top, transparent, #000000)",
+        paddingRight: { sm: "200px", xs: "0px" },
+        textAlign: "end",
+      }}
     >
-      <Stack
-        gap="40px"
-        sx={{ alignItems: "center" }}
-        flexWrap="wrap"
-        px="40px"
-        pt="24px"
-      >
-        <img src={Logo} alt="logo" style={{ width: "200px", height: "41px" }} />
-      </Stack>
       <Typography
         variant="h5"
-        sx={{ fontSize: { lg: "28px", xs: "20px" } }}
+        sx={{
+          fontSize: { lg: "28px", xs: "20px" },
+          textAlign: { lg: "end", xs: "center" },
+        }}
         mt="41px"
-        textAlign="center"
-        pb="40px"
-        color="#fff"
+        fontWeight={"bold"}
+        color="#cc5803"
       >
-        Made with ❤️
+        With 🤍 by @atzinescandia
+      </Typography>
+      <Typography
+        fontWeight={600}
+        color="#c6ac8f"
+        textAlign="end"
+        sx={{
+          opacity: "0.1",
+          fontSize: { lg: "200px", xs: "60px" },
+          fontFamily: "Faster One",
+        }}
+      >
+        FitQuest
       </Typography>
     </Box>
   </Box>
